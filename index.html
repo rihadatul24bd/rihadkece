@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Profil pribadi saya.">
+  <title>Profil Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Halo, Saya <span id="name">Nama Anda</span></h1>
+      <p id="profession">Web Developer & Desainer Grafis</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <p>Halo! Saya seorang pengembang web dengan minat dalam desain antarmuka dan pengalaman pengguna. Saya suka menciptakan situs web yang tidak hanya berfungsi dengan baik tetapi juga indah untuk dilihat. Selain itu, saya juga menikmati tantangan teknis dalam pengembangan perangkat lunak.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Keahlian Saya</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript & React</li>
+        <li>UI/UX Design</li>
+        <li>PHP & MySQL</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>Portofolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="project1.jpg" alt="Proyek 1">
+          <p>Proyek Web A</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="project2.jpg" alt="Proyek 2">
+          <p>Proyek Web B</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="project3.jpg" alt="Proyek 3">
+          <p>Proyek Web C</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Kontak Saya</h2>
+      <form>
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Profil Saya. Semua hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

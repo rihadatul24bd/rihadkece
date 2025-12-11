@@ -1,0 +1,134 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header #name {
+  color: #ffa500;
+}
+
+header #profession {
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Section */
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* About */
+#about p {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+/* Skills */
+#skills ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#skills ul li {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1.1em;
+}
+
+/* Portfolio */
+#portfolio .portfolio-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#portfolio .portfolio-item {
+  width: 30%;
+}
+
+#portfolio .portfolio-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#portfolio .portfolio-item p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+form button:hover {
+  background-color: #ffa500;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
